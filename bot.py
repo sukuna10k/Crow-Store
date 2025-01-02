@@ -95,7 +95,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot en cours d'exécution..!\n\nCréé par \nhttps://t.me/codeflix_bots")
+        self.LOGGER(__name__).info(f"Bot en cours d'exécution..!\n\nCréé par \nhttps://t.me/Otakukingcey1")
         self.LOGGER(__name__).info(f"""       
 
 

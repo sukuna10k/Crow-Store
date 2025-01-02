@@ -24,8 +24,8 @@ OWNER_ID = int(os.environ.get("7428552084"))
 PORT = os.environ.get("PORT", "8080")
 
 # Base de données
-DB_URI = os.environ.get("DATABASE_URL")
-DB_NAME = os.environ.get("DATABASE_NAME")
+DB_URI = os.environ.get("mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix")
+DB_NAME = os.environ.get("Antiflix")
 
 # ID du canal de souscription forcée, si vous voulez activer la souscription forcée
 FORCE_SUB_CHANNEL_1 = int(os.environ.get("-1002172537293"))

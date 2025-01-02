@@ -82,7 +82,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ À ᴘʀᴏᴘᴏꜱ", callback_data="about"),
-                    InlineKeyboardButton('🍁 SériesFlix', url='https://t.me/Team_Netflix/40')
+                    InlineKeyboardButton('🍁 SériesFlix', url='https://t.me/AntiFlix_A')
                 ]
             ]
         )

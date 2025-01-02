@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴘʀᴏᴘʀɪéᴛᴀɪʀᴇ : <a href='tg://user?id={OWNER_ID}'>Mikey</a>\n○ ᴍᴇꜱ ᴍɪꜱᴇꜱ à ᴊᴏᴜʀ : <a href='https://t.me/CodeFlix_Bots'>ᴄᴏᴅᴇꜰʟɪx ʙᴏᴛꜱ</a>\n○ ᴍɪꜱᴇꜱ à ᴊᴏᴜʀ ᴅᴇꜱ ꜰɪʟᴍꜱ: <a href='https://t.me/Team_Netflix'>ᴛᴇᴀᴍ ɴᴇᴛꜰʟɪx</a>\n○ ɴᴏᴛʀᴇ ᴄᴏᴍᴍᴜɴᴀᴜᴛé : <a href='https://t.me/otakuflix_network'>ᴏᴛᴀᴋᴜꜰʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴄʜᴀᴛ ᴀɴɪᴍᴇ : <a href='https://t.me/weebzonex'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
+            text = f"<b>○ ᴘʀᴏᴘʀɪéᴛᴀɪʀᴇ : <a href='tg://user?id={OWNER_ID}'>🇰ιηg¢єу</a>\n○ ᴍᴇꜱ ᴍɪꜱᴇꜱ à ᴊᴏᴜʀ : <a href='https://t.me/Otakukingcey1'>ᴄᴏᴅᴇꜰʟɪx ʙᴏᴛꜱ</a>\n○ ᴍɪꜱᴇꜱ à ᴊᴏᴜʀ ᴅᴇꜱ ꜰɪʟᴍꜱ: <a href='https://t.me/AntiFlix_A'>ᴛᴇᴀᴍ ɴᴇᴛꜰʟɪx</a>\n○ ɴᴏᴛʀᴇ ᴄᴏᴍᴍᴜɴᴀᴜᴛé : <a href='https://t.me/Anime_Crow'>ᴏᴛᴀᴋᴜꜰʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴄʜᴀᴛ ᴀɴɪᴍᴇ : <a href='https://t.me/Anime_Crow_ds'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ꜰᴇʀᴍᴇʀ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/OtakuFlix_Network/4639')
+                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/otakukingcey1/53')
                     ]
                 ]
             )
